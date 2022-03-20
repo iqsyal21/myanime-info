@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#carouselExampleControls {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3em;
+}
+#anime-card-item,
+#table-schedule {
+  font-family: "Source Sans Pro", serif;
+}
+#anime-search-item {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.bgbody {
+  background-color: #b1d0e0;
+}
+
+.costume-container {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.main-box {
+  flex-grow: 3;
+  flex-basis: 75%;
+  padding-right: 30px;
+}
+
+.aside-box {
+  flex-grow: 1;
+  flex-basis: 25%;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.list-group:hover {
+  cursor: pointer;
+}
+
+h5 span:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  padding: 10px 20px 2px;
+  color: white;
+  background-color: #064663;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a {
+  padding-top: 15px;
+  color: white;
+  float: right;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .costume-container {
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+  .main-box {
+    margin-top: 30px;
+    padding-right: 0;
+  }
+  .aside-box {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  footer a {
+    float: none;
+  }
+}
