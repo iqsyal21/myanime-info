@@ -1,4 +1,4 @@
-myanime-info
+# myanime-info
 ==
 unofficial myanimelist api
 --
@@ -7,3 +7,6 @@ terdapat banyak method request pada jikan api. tetapi yang saya gunakan di sini 
 - top
 - search
 - schedule
+
+# preview
+https://myanime-info2.netlify.app/
